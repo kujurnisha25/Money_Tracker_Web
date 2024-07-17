@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(69, 164, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(66, 75, 84);
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(66, 75, 84);
+}
+
+.input-section input,
+.input-section select {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+}
+
+.input-section button {
+    padding: 8px 16px;
+    background-color: rgb(242, 73, 129);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-section button:hover {
+    background-color: rgb(216, 62, 114);
+}
+
+.expenses-list {
+    margin: 20px 0;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    border: 3px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(64, 54, 140);
+    color: rgb(253, 253, 250);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: rgb(198, 69, 69);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: rgb(172, 60, 60);
+}
